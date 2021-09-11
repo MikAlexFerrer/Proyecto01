@@ -1,0 +1,115 @@
+body {
+    background-color: #ecf2f8;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    height: auto;
+    margin: auto;
+    min-width: 0px;
+  }
+.whiteText {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: antiquewhite !important;
+  }
+#wrap { 
+  width:80%;
+        margin-left:auto;
+        margin-right:auto;
+}
+
+#wrapper2 {
+  display: flex;    
+  flex-wrap: wrap;  
+}
+#wrapper2 > div {
+  flex: 1;          
+  min-width: 500px; 
+  border: 1px;
+}
+
+.Titlebox{
+  position: relative;
+  top:50px;
+  border-radius: 20px;
+  text-align: center;
+  color: #000000;
+  font-size:150px;
+} 
+.box{
+  float: center;
+  position: relative;
+  top:100px;
+  background-size: auto 100%;
+  background-position: center;
+  width: auto;
+  height: 1200px;
+
+  border-radius: 20px;
+}
+
+/*
+.ibox{
+
+  float: center;
+  position: relative;
+  top:200px;
+
+  width: auto;
+  height:500px;
+  text-align: center;
+  border-radius: 20px;
+}
+.*/
+.cont2{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  height: 500px;
+  width: 25%;
+}
+.cont3{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  height: 500px;
+  width: 25%;
+}
+.cont4{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  height: 500px;
+  width: 25%;
+}
+.cont5{
+  position: relative;
+    top: 100px;
+    text-align: center;
+    height: 500px;
+    width: 25%;
+}
+.imgDown{
+    min-height: 150px;
+    max-height: 350px;
+    width: auto;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    margin:-10px;
+}
+
+h1{
+  font-size: 30px;
+  position: relative;
+  top: 50px;
+
+  color: #000000;
+}
+vg{
+  position: relative;
+  top: 30px;
+  color: #000000;
+  font-size:20px;
+}
+
+dg{
+  color: #48556a;
+}
