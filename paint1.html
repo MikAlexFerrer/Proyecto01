@@ -1,42 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
+    rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Painting 1</title>
   <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
+  <!-- Navbar-->
+  <nav class="navbar navbar fixed-top navbar-expand-lg navbar-light bg-dark">
+    <a class="navbar-brand" href="index.html"> <img src="./images/favicon-32x32.png" style="height: 60px; width: 60px;"
+        width="100"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link whiteText" href="aboutUs.html">About Us &nbsp;</a>
+        <a class="nav-link whiteText" href="FAQ.html">FAQ &nbsp;</a>
+        <a class="nav-link whiteText" href="Contact.html">Contact Us &nbsp;</a>
+      </div>
+    </div>
+  </nav>
   <!--Titulo-->
   <div class="PageTitle">Painting 1</div>
-  <!--Centro-->
-  <div id="wrapper3"> 
-  <!--Imagen-->
-  <div class="Painting"> <div><imgsrc><img src="images/pintura2.jpg"></imgsrc></div></div>
-  <div class="Text">
-  <!--Nombre-->
-  <div class="Subtitle">Artist
-    <!--Artista-->
-    <div class="Year">Year
-      <!--Texto-->
-      <div class="Description">
-  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum odio nec rutrum pretium. Pellentesque non laoreet erat, quis aliquet enim. 
-Etiam at condimentum ligula. Nulla eros eros, ultricies quis dignissim quis, hendrerit vel sapien. Praesent volutpat sem id tempor finibus. Maecenas 
-sapien ipsum, vestibulum ut iaculis et, convallis ac augue. Ut eget sollicitudin mi. Proin ut sapien risus. In interdum feugiat mi, sed varius lectus 
-accumsan quis. Sed molestie non tellus fringilla tempus. Duis rutrum faucibus felis sed viverra. Aliquam eget ligula aliquet, dapibus ante quis, mollis
-lorem. Fusce nec ante at dolor tempor venenatis viverra vel mi. Phasellus lacinia diam vel ultricies vehicula. Donec at purus metus.
-Proin consectetur ultrices eros, sit amet suscipit dolor gravida non. Integer sodales vestibulum tortor, ut finibus arcu laoreet eu. Aliquam accumsan elit 
-in consectetur mattis. Nunc tincidunt diam nec tincidunt placerat. Quisque eu dapibus urna. Suspendisse at dui et nunc venenatis dictum. Donec rutrum arcu 
-sit amet ex ullamcorper, sed pretium dolor sodales. Phasellus ut lectus vitae quam iaculis laoreet. Aenean euismod mi massa, vitae finibus purus ultricies 
-ut. Quisque egestas mauris felis, sed gravida felis posuere nec. Praesent elementum ultrices ante, in luctus lacus viverra eu. Morbi vel leo orci. Quisque 
-eleifend ex sed leo egestas rhoncus. In hac habitasse platea dictumst.      
+  <!-- Carousel-->
+  <div class="cDisp"> 
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/Cezanne01.jpg" class="d-block w-100" alt="...">
         </div>
+        <div class="carousel-item">
+          <img src="./images/Matisse01.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Rembrandt01.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
+  <!--Centro-->
+  <div id="wrapper3">
+    <div class="Text">
+      <!--Nombre-->
+      <div class="Subtitle">Artist
+        <!--Artista-->
+        <div class="Year">Year
+          <!--Texto-->
+          <div class="Description">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam fermentum odio nec rutrum pretium.
+            Pellentesque non laoreet erat, quis aliquet enim.
+            Etiam at condimentum ligula. Nulla eros eros, ultricies quis dignissim quis, hendrerit vel sapien. Praesent
+            volutpat sem id tempor finibus. Maecenas
+            sapien ipsum, vestibulum ut iaculis et, convallis ac augue. Ut eget sollicitudin mi. Proin ut sapien risus.
+            In interdum feugiat mi, sed varius lectus
+            accumsan quis. Sed molestie non tellus fringilla tempus. Duis rutrum faucibus felis sed viverra. Aliquam
+            eget ligula aliquet, dapibus ante quis, mollis
+            lorem. Fusce nec ante at dolor tempor venenatis viverra vel mi. Phasellus lacinia diam vel ultricies
+            vehicula. Donec at purus metus.
+            Proin consectetur ultrices eros, sit amet suscipit dolor gravida non. Integer sodales vestibulum tortor, ut
+            finibus arcu laoreet eu. Aliquam accumsan elit
+            in consectetur mattis. Nunc tincidunt diam nec tincidunt placerat. Quisque eu dapibus urna. Suspendisse at
+            dui et nunc venenatis dictum. Donec rutrum arcu
+            sit amet ex ullamcorper, sed pretium dolor sodales. Phasellus ut lectus vitae quam iaculis laoreet. Aenean
+            euismod mi massa, vitae finibus purus ultricies
+            ut. Quisque egestas mauris felis, sed gravida felis posuere nec. Praesent elementum ultrices ante, in luctus
+            lacus viverra eu. Morbi vel leo orci. Quisque
+            eleifend ex sed leo egestas rhoncus. In hac habitasse platea dictumst.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<<<<<<< HEAD
 </div>
 </div>
 <footer>
@@ -52,5 +120,11 @@ eleifend ex sed leo egestas rhoncus. In hac habitasse platea dictumst.
       </div>
     </div>
   </footer>
+=======
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+>>>>>>> origin/Develop
 </body>
+
 </html>
