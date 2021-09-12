@@ -126,8 +126,8 @@ font-size: 36px;
 position: absolute;
 top:250px;
 right:15%;
-width: 500px;
-height: 600px;
+width: 400px;
+height: 500px;
 margin-right: 50px;
 }
 @media screen and (max-width: 1300px) {
@@ -149,7 +149,7 @@ position: relative;
 top: 150px;
 min-width: 200px;
 max-width: 2500px;
-margin-bottom: 300px;
+margin-bottom: 400px;
 margin-right: 50%;
 text-align: justify;
 font-size: 36px;
@@ -171,13 +171,14 @@ width: 1500px;
 }
 
 .imgDisp{
-  min-height: 700px;
+  min-height: 600px;
   max-height: auto;
   width: auto;
   position: relative;
   border-radius: 10px;
   top:100px;
   right:-100px;
+  margin-bottom: 10%;
 }
 .BidTable{
   position: relative;
