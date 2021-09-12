@@ -1,15 +1,25 @@
 body {
+<<<<<<< HEAD
   background-color: #ecf2f8;
   font-family: 'Barlow Semi Condensed', sans-serif;
   height: auto;
   margin: auto;
   min-width: 0px;
 }
+=======
+    background-color: #dbe7f3;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    height: auto;
+    margin: auto;
+    min-width: 0px;
+  }
+>>>>>>> origin/Develop
 .whiteText {
   font-family: 'Barlow Semi Condensed', sans-serif;
   color: antiquewhite !important;
 }
 #wrap { 
+<<<<<<< HEAD
 width:80%;
       margin-left:auto;
       margin-right:auto;
@@ -18,6 +28,16 @@ width:80%;
 #wrapper2 {
 display: flex;    
 flex-wrap: wrap;  
+=======
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#wrapper2 {
+  display: flex;    
+  flex-wrap: wrap; 
+>>>>>>> origin/Develop
 }
 #wrapper2 > div {
 flex: 1;          
@@ -26,6 +46,7 @@ border: 1px;
 }
 
 .Titlebox{
+<<<<<<< HEAD
 position: relative;
 top:50px;
 border-radius: 20px;
@@ -42,10 +63,31 @@ background-position: center;
 width: auto;
 height: 1200px;
 border-radius: 20px;
+=======
+  position: relative;
+  top:50px;
+  text-align: center;
+  color: #000000;
+  font-size:150px;
+} 
+.box{
+  
+  margin: auto;
+  position: relative;
+  top:100px;
+  margin-bottom: 12%;
+  background-size: auto 100%;
+  background-position: center;
+  width: auto;
+  min-height: 200px;
+  max-height: 1000px;
+  border-radius: 20px;
+>>>>>>> origin/Develop
 }
 
 /*
 .ibox{
+<<<<<<< HEAD
 float: center;
 position: relative;
 top:200px;
@@ -79,10 +121,31 @@ width: 25%;
 .cont5{
 position: relative;
   top: 100px;
+=======
+  float: center;
+  position: relative;
+  top:200px;
+  width: auto;
+  height:500px;
+  text-align: center;
+  border-radius: 20px;
+}
+.*/
+@media screen and (max-width: 800px) {
+  .cont3 {
+    margin-left:-7%;
+  }
+}
+.paintBox{
+  top: 150px;
+  position: relative;
+>>>>>>> origin/Develop
   text-align: center;
   height: 500px;
   width: 25%;
+  margin: 5%;
 }
+<<<<<<< HEAD
 .imgDown{
   min-height: 150px;
   max-height: 350px;
@@ -91,14 +154,33 @@ position: relative;
   top: 50px;
   border-radius: 10px;
   margin:-10px;
+=======
+
+.imgDown{
+    min-height: 150px;
+    max-height: 350px;
+    width: auto;
+    position: relative;
+    top: 50px;
+    border-radius: 10px;
+    margin:10px;
+>>>>>>> origin/Develop
 }
 
+
 h1{
+<<<<<<< HEAD
 font-size: 30px;
 position: relative;
 top: 50px;
 
 color: #000000;
+=======
+  font-size: 30px;
+  position: relative;
+  top: 50px;
+  color: #000000;
+>>>>>>> origin/Develop
 }
 vg{
 position: relative;
@@ -118,15 +200,11 @@ flex-wrap: wrap;
 }
 #wrapper3 > div {
 flex: 1;          
-min-width: 600px; 
 border: 1px;
-
 }
 .PageTitle{
-
 position: relative;
-top:50px;
-
+top:100px;
 color: #000000;
 font-size:120px;
 } 
@@ -142,61 +220,63 @@ margin-right: 700px;
 .Container{
 position: relative;
 top: -50px;
-
 min-width: 50px;
 max-width: 1800px;
 margin-bottom: 100px;
 margin-right: 50px;
 text-align: justify;
 font-size: 36px;
-
 }
 .imgLogo {
+<<<<<<< HEAD
 height: 30px;
 width: auto;
 position: relative;
 border-radius: 10px;
 margin: 3px;
+=======
+  height: 30px;
+  width: auto;
+  position: relative;
+  border-radius: 10px;
+  margin: 3px;
+>>>>>>> origin/Develop
 }
 .RightImg{
-position: fixed;
+position: absolute;
 top:250px;
-right:5%;
+right:15%;
 width: 500px;
 height: 600px;
 margin-right: 50px;
 }
-.Text{
-position: relative;
-top: 50px;
-margin-left:10%;
-min-width: 150px;
-max-width: 1600px;
-margin-bottom: 100px;
-margin-right: 50px;
-text-align: justify;
-font-size: 36px;
+@media screen and (max-width: 400px) {
+  .AUText {
+    width:60%;
+    font-size: 18px;
+ }
 }
+@media screen and (max-width: 1300px) {
+  .imgDisp {
+      display: none !important;
+  }
+}
+
 .AUText{
 position: relative;
 top: 150px;
-
-min-width: 800px;
+min-width: 200px;
 max-width: 2500px;
-margin-bottom: 100px;
-margin-right: 20%;
+margin-bottom: 300px;
+margin-right: 50%;
 text-align: justify;
 font-size: 36px;
-
 }
-.Year{
 
-}
 .Subtitle{
 margin-top:50px;
 }
 .Description{
-
 font-size:24px;
 }
 .whiteText {
@@ -204,15 +284,20 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 color: antiquewhite !important;
 }
 .cDisp{
-margin-top: 5%;
+margin-top: 150px;
 width: 1500px;
+<<<<<<< HEAD
 margin-left:auto;
 margin-right:auto;
 /* width:10%; */
     /* margin-left:auto; */
     /* margin-right:auto; */
+=======
+>>>>>>> origin/Develop
 }
+
 .imgDisp{
+<<<<<<< HEAD
 min-height: 800px;
 max-height: auto;
 width: auto;
@@ -220,6 +305,15 @@ position: relative;
 
 border-radius: 10px;
 
+=======
+  min-height: 700px;
+  max-height: auto;
+  width: auto;
+  position: relative;
+  border-radius: 10px;
+  top:100px;
+  right:-100px;
+>>>>>>> origin/Develop
 }
 
 .imgBid {
