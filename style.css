@@ -36,12 +36,13 @@ body {
   margin: auto;
   position: relative;
   top:100px;
-  margin-bottom: 12%;
+
   background-size: auto 100%;
   background-position: center;
-  width: auto;
+  width: 80%;
+  max-width: 2200px;
   min-height: 200px;
-  max-height: 1000px;
+  max-height: 1800px;
   border-radius: 20px;
 }
 
