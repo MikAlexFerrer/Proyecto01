@@ -200,3 +200,10 @@ width: 1500px;
   top: 170px;
   margin-bottom: 300px;
 }
+.indButton{
+  display: flex;
+  margin: 0 auto;
+  margin-left: 50%;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
