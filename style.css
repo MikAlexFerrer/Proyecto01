@@ -33,7 +33,6 @@ body {
   font-size:150px;
 } 
 .box{
-  
   margin: auto;
   position: relative;
   top:100px;
@@ -46,17 +45,6 @@ body {
   border-radius: 20px;
 }
 
-/*
-.ibox{
-  float: center;
-  position: relative;
-  top:200px;
-  width: auto;
-  height:500px;
-  text-align: center;
-  border-radius: 20px;
-}
-.*/
 @media screen and (max-width: 800px) {
   .cont3 {
     margin-left:-7%;
@@ -80,7 +68,6 @@ body {
     border-radius: 10px;
     margin:10px;
 }
-
 
 h1{
   font-size: 30px;
@@ -200,10 +187,17 @@ width: 1500px;
   top: 170px;
   margin-bottom: 300px;
 }
-.indButton{
-  display: flex;
-  margin: 0 auto;
-  margin-left: 50%;
-  margin-top: 200px;
-  margin-bottom: 100px;
+.btnbox{
+  margin: auto;
+  position: relative;
+  top:200px;
+  text-align: center;
+  width: auto;
+  height: 100px;
+  margin-bottom: 300px;
+}
+
+#GFG {
+  color: #000000;
+  text-decoration: none;
 }
