@@ -153,7 +153,13 @@ text-align: justify;
 font-size: 36px;
 
 }
-
+.imgLogo {
+  height: 30px;
+  width: auto;
+  position: relative;
+  border-radius: 10px;
+  margin: 3px;
+}
 .RightImg{
 position: fixed;
 top:250px;
