@@ -28,7 +28,6 @@ body {
 .Titlebox{
   position: relative;
   top:50px;
-  border-radius: 20px;
   text-align: center;
   color: #000000;
   font-size:150px;
@@ -46,11 +45,9 @@ body {
 
 /*
 .ibox{
-
   float: center;
   position: relative;
   top:200px;
-
   width: auto;
   height:500px;
   text-align: center;
@@ -99,7 +96,6 @@ h1{
   font-size: 30px;
   position: relative;
   top: 50px;
-
   color: #000000;
 }
 vg{
@@ -122,13 +118,10 @@ flex-wrap: wrap;
 flex: 1;          
 min-width: 600px; 
 border: 1px;
-
 }
 .PageTitle{
-
 position: relative;
-top:50px;
-
+top:100px;
 color: #000000;
 font-size:120px;
 } 
@@ -144,14 +137,12 @@ margin-right: 700px;
 .Container{
 position: relative;
 top: -50px;
-
 min-width: 50px;
 max-width: 1800px;
 margin-bottom: 100px;
 margin-right: 50px;
 text-align: justify;
 font-size: 36px;
-
 }
 .imgLogo {
   height: 30px;
@@ -197,7 +188,6 @@ font-size: 36px;
   margin-top:50px;
 }
 .Description{
-
 font-size:24px;
 }
 .whiteText {
@@ -226,5 +216,4 @@ margin-right:auto;
   border-radius: 10px;
   top:100px;
   right:-150px;
-
 }
