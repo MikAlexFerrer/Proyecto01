@@ -1,5 +1,5 @@
 body {
-    background-color: #ecf2f8;
+    background-color: #dbe7f3;
     font-family: 'Barlow Semi Condensed', sans-serif;
     height: auto;
     margin: auto;
@@ -11,13 +11,13 @@ body {
   }
 #wrap { 
   width:80%;
-        margin-left:auto;
-        margin-right:auto;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #wrapper2 {
   display: flex;    
-  flex-wrap: wrap;  
+  flex-wrap: wrap; 
 }
 #wrapper2 > div {
   flex: 1;          
@@ -33,13 +33,16 @@ body {
   font-size:150px;
 } 
 .box{
-  float: center;
+  
+  margin: auto;
   position: relative;
   top:100px;
+  margin-bottom: 15%;
   background-size: auto 100%;
   background-position: center;
   width: auto;
-  height: 1200px;
+  min-height: 200px;
+  max-height: 1000px;
   border-radius: 20px;
 }
 
@@ -54,34 +57,20 @@ body {
   border-radius: 20px;
 }
 .*/
-.cont2{
+@media screen and (max-width: 800px) {
+  .cont3 {
+    margin-left:-7%;
+  }
+}
+.paintBox{
+  top: 150px;
   position: relative;
-  top: 100px;
   text-align: center;
   height: 500px;
   width: 25%;
+  margin: 5%;
 }
-.cont3{
-  position: relative;
-  top: 100px;
-  text-align: center;
-  height: 500px;
-  width: 25%;
-}
-.cont4{
-  position: relative;
-  top: 100px;
-  text-align: center;
-  height: 500px;
-  width: 25%;
-}
-.cont5{
-  position: relative;
-    top: 100px;
-    text-align: center;
-    height: 500px;
-    width: 25%;
-}
+
 .imgDown{
     min-height: 150px;
     max-height: 350px;
@@ -89,8 +78,9 @@ body {
     position: relative;
     top: 50px;
     border-radius: 10px;
-    margin:-10px;
+    margin:10px;
 }
+
 
 h1{
   font-size: 30px;
@@ -116,7 +106,6 @@ flex-wrap: wrap;
 }
 #wrapper3 > div {
 flex: 1;          
-min-width: 600px; 
 border: 1px;
 }
 .PageTitle{
@@ -159,31 +148,29 @@ width: 500px;
 height: 600px;
 margin-right: 50px;
 }
-.Text{
-position: relative;
-top: 50px;
-margin-left:10%;
-min-width: 150px;
-max-width: 1600px;
-margin-bottom: 100px;
-margin-right: 50px;
-text-align: justify;
-font-size: 36px;
+@media screen and (max-width: 400px) {
+  .AUText {
+    width:60%;
+    font-size: 18px;
+ }
 }
+@media screen and (max-width: 1300px) {
+  .imgDisp {
+      display: none !important;
+  }
+}
+
 .AUText{
 position: relative;
 top: 150px;
-min-width: 800px;
+min-width: 200px;
 max-width: 2500px;
-margin-bottom: 100px;
+margin-bottom: 300px;
 margin-right: 50%;
 text-align: justify;
 font-size: 36px;
-
 }
-.Year{
 
-}
 .Subtitle{
   margin-top:50px;
 }
@@ -195,19 +182,10 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 color: antiquewhite !important;
 }
 .cDisp{
-margin-top: 5%;
+margin-top: 150px;
 width: 1500px;
-margin-left:auto;
-margin-right:auto;
-/* width:10%; */
-      /* margin-left:auto; */
-      /* margin-right:auto; */
 }
-@media screen and (max-width: 1400px) {
-  .imgDisp {
-      display: none !important;
-  }
-}
+
 .imgDisp{
   min-height: 700px;
   max-height: auto;
@@ -215,5 +193,5 @@ margin-right:auto;
   position: relative;
   border-radius: 10px;
   top:100px;
-  right:-150px;
+  right:-100px;
 }
